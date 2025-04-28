@@ -1,0 +1,36 @@
+[submodule "pack/godlygeek/start/tabular"]
+	path = pack/godlygeek/start/tabular
+	url = https://github.com/godlygeek/tabular.git
+[submodule "pack/hashi/start/vim-terraform"]
+	path = pack/hashi/start/vim-terraform
+	url = https://github.com/hashivim/vim-terraform.git
+[submodule "pack/jlanzarotta/start/bufexplorer"]
+	path = pack/jlanzarotta/start/bufexplorer
+	url = https://github.com/jlanzarotta/bufexplorer.git
+[submodule "pack/rodjek/start/vim-puppet"]
+	path = pack/rodjek/start/vim-puppet
+	url = https://github.com/rodjek/vim-puppet.git
+[submodule "pack/vim-ruby/start/vim-ruby"]
+	path = pack/vim-ruby/start/vim-ruby
+	url = https://github.com/vim-ruby/vim-ruby.git
+[submodule "pack/tpope/start/vim-characterize"]
+	path = pack/tpope/start/vim-characterize
+	url = https://github.com/tpope/vim-characterize.git
+[submodule "pack/tpope/start/vim-commentary"]
+	path = pack/tpope/start/vim-commentary
+	url = https://github.com/tpope/vim-commentary.git
+[submodule "pack/tpope/start/vim-endwise"]
+	path = pack/tpope/start/vim-endwise
+	url = https://github.com/tpope/vim-endwise.git
+[submodule "pack/tpope/start/vim-fugitive"]
+	path = pack/tpope/start/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
+[submodule "pack/tpope/start/vim-markdown"]
+	path = pack/tpope/start/vim-markdown
+	url = https://github.com/tpope/vim-markdown.git
+[submodule "pack/tpope/start/vim-sleuth"]
+	path = pack/tpope/start/vim-sleuth
+	url = https://github.com/tpope/vim-sleuth.git
+[submodule "pack/tpope/start/vim-unimpaired"]
+	path = pack/tpope/start/vim-unimpaired
+	url = https://github.com/tpope/vim-unimpaired.git
