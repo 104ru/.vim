@@ -5,7 +5,14 @@ git pull --rebase
 
 # Update all submodules
 git submodule update --init --recursive
-git submodule foreach 'git checkout main || git checkout master; git pull --rebase'
+git submodule foreach '
+  default_branch=$(git remote show origin | grep "HEAD branch" | cut -d" " -f5);
+  if [ -z "$default_branch" ]; then
+    default_branch="master";
+  fi;
+  git checkout $default_branch;
+  git pull --rebase origin $default_branch
+'
 git add .
 git commit -m "Update plugins to latest versions" || echo "No plugin updates"
 git push
