@@ -14,7 +14,7 @@ git submodule foreach '
   git pull --rebase origin $default_branch
 '
 proto=$(git config --get remote.origin.url)
-if ! [[ "$proto" =~ '^http' ]]; then
+if ! [[ "$proto" =~ ^http ]]; then
   git add .
   git commit -m "Update plugins to latest versions" || echo "No plugin updates"
   git push
