@@ -29,9 +29,7 @@ git submodule add https://github.com/tpope/vim-commentary.git pack/tpope/start/v
 git submodule add https://github.com/tpope/vim-endwise.git pack/tpope/start/vim-endwise
 git submodule add https://github.com/tpope/vim-fugitive.git pack/tpope/start/vim-fugitive
 git submodule add https://github.com/tpope/vim-markdown.git pack/tpope/start/vim-markdown
-git submodule add https://github.com/tpope/vim-sleurh.git pack/tpope/start/vim-sleuth
 git submodule add https://github.com/tpope/vim-sleuth.git pack/tpope/start/vim-sleuth
-git submodule add https://github.com/tpope/vim-unimpared.git pack/tpope/start/vim-unimpared
 git submodule add https://github.com/tpope/vim-unimpaired.git pack/tpope/start/vim-unimpaired
 ```
 
