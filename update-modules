@@ -4,7 +4,7 @@
 git pull --rebase
 
 # Update all submodules
-git submodule update --init --recursive
+git submodule update --init --recursive --rebase
 git submodule foreach '
   default_branch=$(git remote show origin | grep "HEAD branch" | cut -d" " -f5);
   if [ -z "$default_branch" ]; then
