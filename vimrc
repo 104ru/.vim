@@ -113,15 +113,6 @@ map <leader>pv :!puppet parser validate %<cr>
 :nnoremap <leader>dt "=strftime("%c")<CR>P
 :inoremap <leader>dt <C-R>=strftime("%c")<CR>
 
-" Controversial...swap colon and semicolon for easier commands
-"nnoremap ; :
-"nnoremap : ;
-
-"vnoremap ; :
-"vnoremap : ;
-
-map <leader>gt :GundoToggle<cr>
-
 " automatically reload vimrc after saving it
 if has("autocmd")
      autocmd bufwritepost .vimrc source $MYVIMRC
@@ -145,4 +136,4 @@ if &term =~ '256color'
 	 set t_ut=
 endif
 
-
+let g:markdown_fenced_languages = ['html', 'python', 'bash=sh']
