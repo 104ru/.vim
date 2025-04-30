@@ -7,7 +7,7 @@ set nocompatible                  " Must come first because it changes other opt
 " Particulalry useful when under `screen`, which may or may not be attached
 " to physical terminal capable of 256color mode.                                 
 if match($TERMCAP, 'Co#256:') == 0 || match($TERMCAP, ':Co#256:') > 0           
-	set t_Co=256                                                                
+    set t_Co=256                                                                
 endif 
 
 syntax enable                     " Turn on syntax highlighting.
@@ -70,10 +70,10 @@ set diffopt+=vertical             " Open diffs in vertical splits
 set statusline=[%n]\ %<%.99f\ %h%w%m%r%y\ %{fugitive#statusline()}%{exists('*CapsLockStatusline')?CapsLockStatusline():''}%=%-16(\ %l,%c-%v\ %)%P
 
 if $TERM == "xterm-color"
-	color default
+    color default
 else
-	color lucius
-	LuciusDark
+    color lucius
+    LuciusDark
 endif
 
 " * LuciusDark (dark default)
@@ -119,7 +119,7 @@ if has("autocmd")
 endif
 
 if argc() > 1 
-	silent vertical all
+    silent vertical all
 endif
 
 :au FocusGained * :redraw!
@@ -130,16 +130,16 @@ endif
 "autocmd BufRead,BufNewFile *.md setlocal textwidth=80
 
 if &term =~ '256color'
-	  " Disable Background Color Erase (BCE) so that color schemes
-	  " work properly when Vim is used inside tmux and GNU screen.
-	  " See also http://snk.tuxfamily.org/log/vim-256color-bce.html
-	 set t_ut=
+      " Disable Background Color Erase (BCE) so that color schemes
+      " work properly when Vim is used inside tmux and GNU screen.
+      " See also http://snk.tuxfamily.org/log/vim-256color-bce.html
+     set t_ut=
 endif
 
 let g:markdown_fenced_languages = ['html', 'python', 'bash=sh']
 
-if exists(":Tabularize")
-	nmap <Leader>ff :Tabularize /=><CR>
-	vmap <Leader>ff :Tabularize /=><CR>
-endif
+"if exists(":Tabularize")
+nmap <leader>ff :Tabularize /=><CR>
+vmap <leader>ff :Tabularize /=><CR>
+"endif
 
