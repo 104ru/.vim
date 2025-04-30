@@ -137,3 +137,9 @@ if &term =~ '256color'
 endif
 
 let g:markdown_fenced_languages = ['html', 'python', 'bash=sh']
+
+if exists(":Tabularize")
+	nmap <Leader>ff :Tabularize /=><CR>
+	vmap <Leader>ff :Tabularize /=><CR>
+endif
+
