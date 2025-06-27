@@ -118,6 +118,7 @@ if has("autocmd")
      autocmd bufwritepost .vimrc source $MYVIMRC
 endif
 
+
 if argc() > 1 
     silent vertical all
 endif
