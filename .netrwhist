@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/Users/atayts/Documents/kubernetes/prometheus/deployment/05-monitoring_stack'
+let g:netrw_dirhist_6='/Users/atayts/Documents/pp-tcg/data/su_group'
+let g:netrw_dirhist_5='/Users/atayts/Documents/pp-tcg-win/modules/splunkforwarder/data'
+let g:netrw_dirhist_4='/Users/atayts/Downloads/chocolatey.2.4.3/tools'
+let g:netrw_dirhist_3='/Users/atayts/Downloads/chocolatey.2.4.3/tools/chocolateyInstall'
+let g:netrw_dirhist_2='/Users/atayts/Downloads/chocolatey.2.4.3/tools/chocolateyInstall/tools'
+let g:netrw_dirhist_1='/Users/atayts/Downloads/chocolatey.2.4.3/tools/chocolateyInstall'
